@@ -15,6 +15,16 @@
   <!-- Custom styles for this template -->
   <link href="css/blog-post.css" rel="stylesheet">
 
+  <!-- Tree CSS -->
+  <link href="css/tree.css" rel="stylesheet">
+
+  <!-- Tree js -->
+  <script src="tree_js/tree.js"></script>
+  <script src="tree_js/treeitem.js"></script>
+  <script src="tree_js/treeitemClick.js"></script>
+
+  <!-- Tree reference -->
+  <!-- https://www.w3.org/TR/wai-aria-practices/examples/treeview/treeview-1/treeview-1a.html -->
 </head>
 
 <body>
@@ -36,7 +46,7 @@
             <a class="nav-link" href="about.html">About<span class="sr-only">(current)</span></a>
           </li>
           <li class="nav-item active">
-            <a class="nav-link" href="#">Math/Physics</a>
+            <a class="nav-link" href="math_physics.html">Math/Physics</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#">Contact</a>
@@ -68,9 +78,19 @@
         <p>Edited Date</p>
         <hr>
 
-        <!-- Preview Image --
-        <img class="img-fluid rounded" src="./images/diff_geo.jpg" alt="" style="height:300px">
-        <hr> -->
+        <ul>
+            <li class="list-unstyled"><a href="lab_files/batio.pdf">Item 1</a></li>
+            <li class="list-unstyled"><a href="lab_files/batio.pdf">Item 2</a> </li>
+            <li class="list-unstyled"><a href="lab_files/batio.pdf">Item 3</a> </li>
+            <li class="list-unstyled"><a href="lab_files/batio.pdf">Item 4</a> </li>
+            <li class="list-unstyled"><a href="lab_files/batio.pdf">Item 5</a> </li>
+            <li class="list-unstyled"><a href="lab_files/batio.pdf">Item 6</a> </li>
+            <li class="list-unstyled"><a href="lab_files/batio.pdf">Item 7</a> </li>
+            <li class="list-unstyled"><a href="lab_files/batio.pdf">Item 8</a> </li>
+            <li class="list-unstyled"><a href="lab_files/batio.pdf">Item 9</a> </li>
+            <li class="list-unstyled"><a href="lab_files/batio.pdf">Item 10</a> </li>
+        </ul>
+
 
         <!-- Post Content -->
         <!---
@@ -95,33 +115,6 @@
           </div>
         </div>
     -->
-    <!--
-    <div class="card my-4">
-      <h5 class="card-header">Contents</h5>
-      <div class="card-body">
-          <ul class="list-unstyled mb-0">
-              <li>
-                <a href="math_physics__labs.html">Physics Labs</a>
-              </li>
-              <li>
-                <a href="mat_444/">Tensor Analysis Notes/Problems</a>
-              </li>
-              <li>
-                <a href="lab_files/esr.pdf">Test</a>
-              </li>
-          </ul>
-      </div>
-    </div>
--->
-        <!--
-        <blockquote class="blockquote">
-          <p class="mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
-          <footer class="blockquote-footer">Someone famous in
-            <cite title="Source Title">Source Title</cite>
-          </footer>
-        </blockquote>
-    -->
-
 
         <hr>
 
@@ -194,7 +187,9 @@
 
         <!-- Links Widget -->
         <div class="card my-4">
+
           <h5 class="card-header">Links</h5>
+          <!--
           <div class="card-body">
                   <ul class="list-unstyled mb-0">
                       <li>
@@ -208,7 +203,9 @@
                       </li>
                   </ul>
           </div>
-      </div>
+      -->
+
+  </div>
 
         <!-- Side Widget -->
         <div class="card my-4">
@@ -216,7 +213,7 @@
           <div class="card-body">
             <img class="img-fluid rounded" src="./images/diff_geo.jpg" alt="" >
           </div>
-        </div>
+      </div>
 
       </div>
 
