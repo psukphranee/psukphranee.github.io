@@ -443,6 +443,10 @@ mark,
   list-style: none;
 }
 
+.list-unstyled-mod {
+  list-style: none;
+}
+
 .list-inline {
   padding-left: 0;
   list-style: none;
