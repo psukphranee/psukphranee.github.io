@@ -7,7 +7,7 @@
   <meta name="description" content="">
   <meta name="author" content="">
 
-  <title>Physics Labs</title>
+  <title>Lab</title>
 
   <!-- Bootstrap core CSS -->
   <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -15,16 +15,10 @@
   <!-- Custom styles for this template -->
   <link href="css/blog-post.css" rel="stylesheet">
 
-  <!-- Tree CSS -->
-  <link href="css/tree.css" rel="stylesheet">
-
-  <!-- Tree js -->
-  <script src="tree_js/tree.js"></script>
-  <script src="tree_js/treeitem.js"></script>
-  <script src="tree_js/treeitemClick.js"></script>
-
-  <!-- Tree reference -->
-  <!-- https://www.w3.org/TR/wai-aria-practices/examples/treeview/treeview-1/treeview-1a.html -->
+  <!-- MathJax -->
+  <script type="text/javascript" async
+  src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/latest.js?config=TeX-MML-AM_CHTML">
+  </script>
 </head>
 
 <body>
@@ -42,7 +36,7 @@
             <a class="nav-link" href="index.html">Home
             </a>
           </li>
-          <li class="nav-item">
+          <li class="nav-item ">
             <a class="nav-link" href="about.html">About<span class="sr-only">(current)</span></a>
           </li>
           <li class="nav-item active">
@@ -65,7 +59,7 @@
       <div class="col-lg-8">
 
         <!-- Title -->
-        <h1 class="mt-4">Physics Labs</h1>
+        <h1 class="mt-4">Tensor Analysis</h1>
 
         <!-- Author -->
         <p class="lead">
@@ -75,67 +69,32 @@
 
         <hr>
         <!-- Date/Time -->
-        <p>Edited Date</p>
+        <p>Edited <span id="datetime"></span></p>
         <hr>
 
-        <ul>
-            <li class="list-unstyled">
-                <a href="lab_files/BaTiO.pdf">Item 1</a>
-                <p>
-                    Description
-                </p>
-            </li>
-            <li class="list-unstyled"><a href="lab_files/Capacitance.pdf">Item 2</a> </li>
-            <li class="list-unstyled"><a href="lab_files/He Spectra.pdf">Item 3</a> </li>
-            <li class="list-unstyled"><a href="lab_files/NaI Detector - Revised.pdf">Item 4</a> </li>
-            <li class="list-unstyled"><a href="lab_files/Salt_2.pdf">Item 5</a> </li>
-            <li class="list-unstyled"><a href="lab_files/Soil Analysis__.pdf">Item 6</a> </li>
-            <li class="list-unstyled"><a href="lab_files/Transmission.pdf	">Item 7</a> </li>
-            <li class="list-unstyled"><a href="lab_files/Tunnel Diode.pdf">Item 8</a> </li>
-            <li class="list-unstyled"><a href="lab_files/Viscosity.pdf">Item 9</a> </li>
-            <li class="list-unstyled"><a href="lab_files/esr.pdf">Item 10</a> </li>
-        </ul>
-
+        <!-- Preview Image -->
+        <center><img class="img-fluid rounded" src="./images/diff_geo.jpg" alt="" style="height:400px"></center>
+        <hr>
 
         <!-- Post Content -->
-        <!---
-        <div class="card my-4">
-          <h5 class="card-header">Contents</h5>
-          <div class="card-body">
-            <div class="row">
-              <div class="col-lg-6">
-                <ul class="list-unstyled mb-0">
-                  <li>
-                    <a href="https://nei.nih.gov/health/amblyopia">National Eye Institute - Amblyopia</a>
-                  </li>
-                  <li>
-                    <a href="#">HTML</a>
-                  </li>
-                  <li>
-                    <a href="#">Freebies</a>
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </div>
-        </div>
+        <p style="text-indent: 40px">
+           This course covered multilinear algebra, constructing tensor spaces, and topics in differential geometry. The book we used was
+           LECTURES ON DIFFERENTIAL GEOMETRY (ISBN-13: 978-9810241827).
+       </p>
+
+
+        <!--
+        <blockquote class="blockquote">
+          <p class="mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
+          <footer class="blockquote-footer">Someone famous in
+            <cite title="Source Title">Source Title</cite>
+          </footer>
+        </blockquote>
     -->
+
 
         <hr>
 
-        <!-- Comments Form --
-        <div class="card my-4">
-          <h5 class="card-header">Leave a Comment:</h5>
-          <div class="card-body">
-            <form>
-              <div class="form-group">
-                <textarea class="form-control" rows="3"></textarea>
-              </div>
-              <button type="submit" class="btn btn-primary">Submit</button>
-            </form>
-          </div>
-        </div>
-    -->
         <!-- Single Comment --
         <div class="media mb-4">
           <img class="d-flex mr-3 rounded-circle" src="http://placehold.it/50x50" alt="">
@@ -146,32 +105,25 @@
         </div>
     -->
 
-        <!-- Comment with nested comments --
+        <!-- Comment with nested comments -->
         <div class="media mb-4">
-          <img class="d-flex mr-3 rounded-circle" src="http://placehold.it/50x50" alt="">
           <div class="media-body">
-            <h5 class="mt-0">Commenter Name</h5>
-            Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
-
-            <div class="media mt-4">
-              <img class="d-flex mr-3 rounded-circle" src="http://placehold.it/50x50" alt="">
-              <div class="media-body">
-                <h5 class="mt-0">Commenter Name</h5>
-                Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
-              </div>
-            </div>
-
-            <div class="media mt-4">
-              <img class="d-flex mr-3 rounded-circle" src="http://placehold.it/50x50" alt="">
-              <div class="media-body">
-                <h5 class="mt-0">Commenter Name</h5>
-                Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
-              </div>
-            </div>
-
+            <h6 class="mt-0"><a href="mat_444/problems_solutions/MAT444Probs.1-7.pdf">Problems Set 1-7</a></h6>
+            <h6 class="mt-0"><a href="mat_444/problems_solutions/MAT444Probs.8-11.pdf">Problems Set 8-11</a></h6>
+            <h6 class="mt-0"><a href="mat_444/problems_solutions/MAT444Probs.12-14.pdf">Problems Set 12-14</a></h6>
+            <h6 class="mt-0"><a href="mat_444/problems_solutions/MAT444Probs.15-20.pdf">Problems Set 15-20</a></h6>
+            <h6 class="mt-0"><a href="mat_444/problems_solutions/MAT444Probs.21-25.pdf">Problems Set 21-25</a></h6>
+            <h6 class="mt-0"><a href="mat_444/problems_solutions/MAT444Probs.26-30.pdf">Problems Set 26-30</a></h6>
           </div>
-      </div> -->
-
+          <div class="media-body">
+            <h6 class="mt-0"><a href="mat_444/problems_solutions/MAT444HWsolnsProbs.1-7.pdf">Solution Set 1-7</a></h6>
+            <h6 class="mt-0"><a href="mat_444/problems_solutions/MAT444HWsolnsProbs.8-11.pdf">Solution Set 8-11</a></h6>
+            <h6 class="mt-0"><a href="mat_444/problems_solutions/MAT444HWsolnsProbs.12-14.pdf">Solution Set 12-14</a></h6>
+            <h6 class="mt-0"><a href="mat_444/problems_solutions/MAT444HWsolnsProbs.15-20.pdf">Solution Set 15-20</a></h6>
+            <h6 class="mt-0"><a href="mat_444/problems_solutions/MAT444HWsolnsProbs.21-25.pdf">Solution Set 21-25</a></h6>
+            <h6 class="mt-0"><a href="mat_444/problems_solutions/MAT444HWsolnsProbs.26-30.pdf">Solution Set 26-30</a></h6>
+          </div>
+        </div>
       </div>
 
       <!-- Sidebar Widgets Column -->
@@ -190,32 +142,31 @@
           </div>
         </div>
 
-        <!-- Links Widget -->
+        <!-- Categories Widget -->
         <div class="card my-4">
-
             <h5 class="card-header">Contents</h5>
             <div class="card-body">
                 <ul class="list-unstyled mb-0">
                     <li>
-                      <a href="math_physics__labs.html" class="font-weight:bold">Physics Labs</a>
+                      <a href="math_physics__labs.html">Physics Labs</a>
                     </li>
                     <li>
-                      <a href="mat_444/">Tensor Analysis Notes/Problems</a>
+                      <a href="math_physics__mat_444.html">Tensor Analysis Notes/Problems</a>
                     </li>
                 </ul>
             </div>
-
-  </div>
+        </div>
 
         <!-- Side Widget -->
         <div class="card my-4">
-          <!-- <h5 class="card-header"></h5> -->
+          <h5 class="card-header">Side Widget</h5>
           <div class="card-body">
-            <img class="img-fluid rounded" src="./images/diff_geo.jpg" alt="" >
+            You can put anything you want inside of these side widgets. They are easy to use, and feature the new Bootstrap 4 card containers!
           </div>
-      </div>
+        </div>
 
       </div>
+
 
     </div>
     <!-- /.row -->
