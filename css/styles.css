@@ -11608,3 +11608,7 @@ footer.footer .social-link:hover {
   /* Other styles here */
 }
 
+.thumbnail img{
+  height : 200px;
+  width : 300px;
+}
