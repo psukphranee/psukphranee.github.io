@@ -1,0 +1,110 @@
+5/8/2022:
+
+-when passing props, "props" is itself a keyword
+-check out this dudes website https://github.com/soumyajit4419/Portfolio
+-created a Projects section, now need to create Project cards to display in that section. use map() to render them
+-after getting the structure right, move text and stuff to data.json
+-sometime in the future, create a navbar
+-after all sections complete, use browser router
+-it feels better doing stuff from scratch. pick up ideas from tutorials.
+-don't go back and forth. stick to the plan of creating a single page app with sections. start with the structure and stuff. then get into design. layer by layer.
+
+5/9/2022:
+
+5/10/2022:
+-Project card skeleton created. need to style.
+
+5/11/2022:
+-Followed https://www.youtube.com/watch?v=7WwtzsSHdpI for ideas like 100vh sections with snap scroll
+-Attempted snap scroll but didn't work. Try putting sections in a container then applying snap scroll to that container. Then snap poisition to individual elements. Refer to ~27min on video
+
+5/12/2022:
+-removed 'sections' class from components
+-snap scroll didn't work because the scroll bar was not part of the body not 'sections' div (https://stackoverflow.com/questions/53416348/css-scroll-snapping-vertical-not-working)
+-Project Cards have a scroll. need to investigate
+
+5/13/2022:
+-added Roboto font family to index.html <head>, some styles removed
+-n2 go back and add in the global styles color
+-https://github.com/gitname/react-gh-pages, followed instruction up to step 5 for deploying to gitHub pages.
+
+5/14/2022:
+-worked on navbar
+-next need to add smooth transition for the menu bar "X"
+
+5/17/2022:
+-what is origin/HEAD, origin/MAIN?
+
+5/18/2022:
+-working on MacBookPro branch
+-Woke up late so putting in 30+ minutes into project. Currently working on menu
+-56:28
+-finished menu
+-work on intro page "React Introduction page"
+-end 1:06:00
+-eye straining. need to stop and revisit. 
+-figure out how to do pull request
+
+5/20/2022
+-mergeed MacBookPro branch into remote
+-note from tutorial: "whenever using position absolute item, make parent position relative"
+-1:13:13. Need to watch video on useEffect
+-useEffect, hook to act when something changes. e.g. mount, some property changes
+-useRef, continue https://www.youtube.com/watch?v=t2ypzz6gJm0 
+
+5/21/2022
+-skipping the iTyped package because of (https://stackoverflow.com/questions/71991232/why-am-i-getting-double-letters-after-using-ityped-package-in-react-js)
+
+5/23/2022
+-1:28:00
+-replacing static items in Portfolio with mapped items from data.js
+-n2 figure out why the objects are not rendering => in the map callback, the arrow function needs enclosed in parenthesis. Parentheses implies "return"
+-Mobile App => Mobie Rampa UI Design is purple because that is the background color. looks like it cant pull the img resource
+-Works Section : Resume at 1:40:00 ish
+
+5/24/2022:
+-1:48:00
+-instructor seems to be doing this on a laptop. it renders similar on the macbook but not imac
+-pushing upstream before heading off to work
+-watch and diagram the slider logic. an issue i have is that the CSS specs seem to be specific to the screen size.
+
+5/26/2022:
+-sliding arrow functionality complete understood. use of useEffect, useState understood
+-the backtick in thie inline style not so clear.
+
+5/27/2022:
+-adding ease to sliders
+
+6/3/2022:
+-finish slider functionatlity: change +- 10px 
+
+6/4/2022:
+-read about media query on FCC.
+
+6/18/2022:
+It's been a minute. Where did I leave off? I don't think I've finished the tutorial video. 
+Ok. So it looks like I did. Some parts of the video were skipped because I didn't want to include specific styling. The last part was including Responsive web design. I need to review and practice this. 
+Learning from the tutorial is done. I will definitely need to review some parts but from now its just working on design/layout that I want.
+
+Things to Modify (Desktop Version. Think about responsive design later):
+
+    Navbar:
+        -Phone number. xxxxxxx
+
+    Intro Section:
+        Change the profile picture.  xxxxxxxxx
+
+    Projects:
+        -Change to Machine Learning Projects xxxxxxxxx
+        -Create slider for: MATLAB, Python Sci-Kit Learn, Tensorflow
+            What should slider look like? 
+            Create <ul> selector for each category. Style the <li> XXXX
+    
+    Portfolio:
+        -Change Featured to "Front End"
+
+    Contacts:
+        -see whats up
+        -name, email, message, submit
+        -need to watch video
+        -EmailJs
