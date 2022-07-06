@@ -23,9 +23,15 @@ function App() {
       <div className='sections'>
         <Intro info={data.About} /> 
         <Projects />
+<<<<<<< HEAD
+        {/* <Portfolio />
+        <Works />
+        <Contact /> */}
+=======
         <Portfolio />
         <Works />
         <Contact />
+>>>>>>> master
       </div>
     </div>
   );

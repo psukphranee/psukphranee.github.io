@@ -10,7 +10,11 @@
     position: relative;
     scroll-snap-type: y mandatory;
     overflow: scroll;
+<<<<<<< HEAD
+    scroll-behavior: auto;
+=======
     scroll-behavior: smooth;
+>>>>>>> master
     > * {
         height: calc(100vh - 70px);
         scroll-snap-align: start;
