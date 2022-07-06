@@ -12,7 +12,11 @@ export default function Menu({activeState, activeCallback}) {
                 <li>
                     <a href="#projects" onClick={()=> activeCallback(false)}>Projects</a>
                 </li>
+<<<<<<< HEAD
                 {/* <li>
+=======
+                <li>
+>>>>>>> master
                     <a href="#portfolio" onClick={()=> activeCallback(false)}>Portfolio</a>
                 </li>
                 <li>
@@ -20,7 +24,11 @@ export default function Menu({activeState, activeCallback}) {
                 </li>
                 <li>
                     <a href="#works" onClick={()=> activeCallback(false)}>Works</a>
+<<<<<<< HEAD
                 </li> */}
+=======
+                </li>
+>>>>>>> master
             </ul>
         </div>
     )

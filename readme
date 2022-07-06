@@ -107,6 +107,7 @@ Things to Modify (Desktop Version. Think about responsive design later):
         -see whats up
         -name, email, message, submit
         -need to watch video
+<<<<<<< HEAD
         -EmailJs
 
 July 6 2022:
@@ -121,3 +122,6 @@ Assessing the situation. Making clear goals.
 
 -Upload to a branch of psukphranee.github.io
 --take notes on errors and figure out how to resolve.
+=======
+        -EmailJs
+>>>>>>> master

@@ -7,13 +7,21 @@ const Projects = (props) => {
 
     return(
         <div className='projects-section' id="projects">
+<<<<<<< HEAD
             <h1>Programming Projects</h1>
+=======
+            <h1>Machine Learning Projects</h1>
+>>>>>>> master
             <div className='project-container'>
                 <div className="project-categories">
                     <ul>
                         <li>MATLAB</li>
+<<<<<<< HEAD
                         <li>Python/Sci-kit Learn</li>
                         <li>C++</li>
+=======
+                        <li>Sci-kit Learn</li>
+>>>>>>> master
                         <li>Tensorflow</li>
                     </ul>
                 </div>
