@@ -107,6 +107,7 @@ Things to Modify (Desktop Version. Think about responsive design later):
         -see whats up
         -name, email, message, submit
         -need to watch video
+
         -EmailJs
 
 July 6 2022:
@@ -121,6 +122,7 @@ Assessing the situation. Making clear goals.
 -------------------------------
 -Create project card
 
+
 July 7, 2022:
 
 -Create JSON file using JSON data generator. To supply into projects.
@@ -134,3 +136,7 @@ Create a file to feed into JSON generator called projects_data_raw
 need to delete stuff out of repo.
 
 -creted json data file and piped that into the projects component.
+
+-Upload to a branch of psukphranee.github.io
+--take notes on errors and figure out how to resolve.
+

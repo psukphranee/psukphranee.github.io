@@ -23,10 +23,13 @@ function App() {
       <Menu activeState={activeState} activeCallback={activeCallback}/>
       <div className='sections'>
         <Intro info={data.About} /> 
+
         <Projects projects_data={projects_data.Projects} />
+
         {/* <Portfolio />
         <Works />
         <Contact /> */}
+
       </div>
     </div>
   );
