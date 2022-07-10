@@ -52,7 +52,7 @@
         "Title": "STL-CSV Converter",
         "Description": "Server module that translates STL files in to CSV. Client module transfers files over TCP socket.",
         "url": "https://github.com/psukphranee/Python/tree/master/stl-csv%20converter",
-        "Tags": "Python, sockets, os"
+        "Tags": "Python, sockets, oss"
       }
     ]
   }
