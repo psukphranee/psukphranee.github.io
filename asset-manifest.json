@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/static/css/main.66238c6a.css",
-    "main.js": "/static/js/main.bc9b7545.js",
+    "main.js": "/static/js/main.9a34ae8c.js",
     "static/media/logo_white.png": "/static/media/logo_white.2729de286719fba783fd.png",
     "static/media/math_eqn.jpg": "/static/media/math_eqn.ced7ef29696acefff234.jpg",
     "index.html": "/index.html",
     "main.66238c6a.css.map": "/static/css/main.66238c6a.css.map",
-    "main.bc9b7545.js.map": "/static/js/main.bc9b7545.js.map"
+    "main.9a34ae8c.js.map": "/static/js/main.9a34ae8c.js.map"
   },
   "entrypoints": [
     "static/css/main.66238c6a.css",
-    "static/js/main.bc9b7545.js"
+    "static/js/main.9a34ae8c.js"
   ]
 }
